@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 import {MatGridList, MatGridTile} from '@angular/material/grid-list';
 
 @Component({
@@ -6,7 +6,6 @@ import {MatGridList, MatGridTile} from '@angular/material/grid-list';
   imports: [
     MatGridList,
     MatGridTile
-
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
